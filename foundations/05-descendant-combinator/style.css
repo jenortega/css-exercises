@@ -1,0 +1,34 @@
+/* 
+if you're feeling adventurous you can even try combining a type *and* class selector for the descendant combinator.
+
+* Only the `p` elements that are descendants of the `div` element 
+should have a yellow background, red text, a font size of 20px, 
+and center aligned.
+*/
+
+
+/* First Solution 
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* Second Solution 
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* Third Solution*/
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
