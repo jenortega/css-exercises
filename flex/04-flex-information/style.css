@@ -12,6 +12,77 @@ img {
   font-weight: 900;
 }
 
+
+/*My code*/
+/*Using containers*/
+body {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.items-box {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+}
+
+.flower-section {
+  max-width: 200px;
+}
+
+/*---My second try, following directions---*/
+
+/*1. All items center horizontally*/
+/*
+body {
+  text-align: center;
+}
+*/
+
+/*2. 32px btw title and items */
+/*
+.title {
+  margin-bottom: 32px;
+}
+*/
+
+/*3. 52px btw each item*/
+/*
+.items-box {
+  display: flex;
+  gap: 52px;
+}
+*/
+
+/*4. items are 200px wide*/
+/*
+.info {
+  max-width: 200px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* do not edit this footer */
 .footer {
   position: fixed;
