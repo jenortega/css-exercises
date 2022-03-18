@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   padding: 8px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -36,10 +37,8 @@ a {
 
 
 /*My Code*/
-.left-links {
-  margin-right: auto;
-}
+/*.left-links {margin-right: auto;}*/
 
-.right-links {
-  margin-left: auto;
-}
+/*.right-links {margin-left: auto;}*/
+
+/*Use justify-content: space-between; instead*/
