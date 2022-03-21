@@ -26,3 +26,67 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*my code*/
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  width: 300px;
+  padding: 10px 10px 50px 10px;
+  margin: 16px;
+}
+
+.cards {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*No need to add bc there is no height requierement*/
+  /* margin-top: auto; */
+}
+
+li {
+    list-style-type: none;
+    padding: 8px 0px;
+}
+
+.middle-box {
+  display: flex;
+}
+
+.sidebar {
+  /*No need to add width*/
+  /* width: 300px; */
+  /*So it doesnt shrink*/
+  flex-shrink: 0;
+
+}
+
+ul {
+  padding: 12px;
+  margin: 0;
+}
